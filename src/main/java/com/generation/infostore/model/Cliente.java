@@ -27,7 +27,7 @@ public class Cliente {
 	private Long id;
 	@NotBlank(message = "O atributo nome é obrigatório!")
 	@Size(min = 2, max = 100, message = "O atributo nome deve conter no mínimo 2 e no máximo 100 caracteres!")
-	@Column(length = 255)
+	@Column(length = 100)
 	private String nome;
 
 	// Cria e valida se o email esta correto
